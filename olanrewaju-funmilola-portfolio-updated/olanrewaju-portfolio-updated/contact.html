@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Olanrewaju Funmilola.">
+  <title>Contact | Olanrewaju Funmilola</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo-link"><img src="logo.svg" alt="Olanrewaju Funmilola logo" class="logo-img"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav id="mainNav" class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>Questions, feedback or just saying hello? I'd love to hear from you.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2">
+          <div>
+            <h2>Send a Message</h2>
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+              <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+
+          <div>
+            <h2>Contact Details</h2>
+            <p>You can also reach me using any of the details below.</p>
+            <div class="table-wrap">
+              <table style="min-width:0">
+                <tbody>
+                  <tr><th scope="row">Email</th><td><a href="mailto:youremail@example.com">youremail@example.com</a></td></tr>
+                  <tr><th scope="row">Phone</th><td>+000 000 000 0000</td></tr>
+                  <tr><th scope="row">GitHub</th><td><a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a></td></tr>
+                  <tr><th scope="row">Location</th><td>Your City, Country</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <h3>Best Ways to Reach Me</h3>
+            <ul>
+              <li>Email for questions and project feedback</li>
+              <li>Phone for urgent matters</li>
+              <li>GitHub to see my other work</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="logo.svg" alt="Olanrewaju Funmilola logo" class="footer-logo">
+          <p>A personal portfolio created as a school project and hosted on GitHub Pages.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:youremail@example.com">youremail@example.com</a></li>
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright"><p>&copy; <span id="year">2026</span> Olanrewaju Funmilola. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
